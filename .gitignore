@@ -1,0 +1,37 @@
+# Data files (too large for git)
+data/*.wav
+data/*.csv
+*.wav
+
+# Model weights
+models/*.pth
+models/*.pkl
+*.pth
+*.pkl
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# W&B
+wandb/
+
+# Kaggle
+*.zip
