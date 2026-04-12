@@ -4,8 +4,7 @@
 > **Student:** Jayesh Bansal | **Roll:** 24f1001895  
 > **Competition:** [Messy Mashup — Kaggle](https://www.kaggle.com/competitions/messy-mashup)  
 > **W&B Project:** [jayeshbans/24f1001895-t12026](https://wandb.ai/jayeshbans/24f1001895-t12026)  
-> **HF Space:** [jayesh-bansal/Audio_Classifier](https://huggingface.co/spaces/jayesh-bansal/Audio_Classifier)  
-> **GitHub:** [jayesh-bansal/Dlgenaiproject](https://github.com/jayesh-bansal/Dlgenaiproject)
+> **HF Space:** [JayeshBansal/Audio_Classifier](https://huggingface.co/spaces/jayesh-bansal/Audio_Classifier)  
 
 ---
 
@@ -133,7 +132,7 @@ All runs logged to W&B: **[jayeshbans/24f1001895-t12026](https://wandb.ai/jayesh
 
 ## Deployment
 
-**Live demo:** [huggingface.co/spaces/jayesh-bansal/Audio_Classifier](https://huggingface.co/spaces/jayesh-bansal/Audio_Classifier)
+**Live demo:** [huggingface.co/spaces/jayesh-bansal/Audio_Classifier](https://huggingface.co/spaces/JayeshBansal/Audio_Classifier)
 
 The Gradio app (`deployment/app.py`) loads `weights/ast_best.pth` and `weights/best_cnn.pth`, accepts a `.wav` or `.mp3` audio file, and returns genre probabilities using the AST×0.75 + CNN×0.25 ensemble with 7-chunk TTA.
 
